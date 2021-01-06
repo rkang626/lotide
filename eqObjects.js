@@ -7,7 +7,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
 
   if (!Array.isArray(arrayOne) || !Array.isArray(arrayTwo)) {
     return false;
-  };
+  }
 
   if (arrayOne.length !== arrayTwo.length) {
     equal = false;
@@ -25,13 +25,13 @@ const eqArrays = function(arrayOne, arrayTwo) {
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;
-  };
+  }
 
-  for (key in object1) {
+  for (let key in object1) {
     if ((object1[key] !== object2[key] && !Array.isArray(object1[key])) || (!eqArrays(object1[key], object2[key]) && Array.isArray(object1[key]))) {
       return false;
     }
-  };
+  }
 
   return true;
 };
