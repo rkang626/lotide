@@ -4,6 +4,11 @@ const assertEqual = function(actual, expected) {
 
 const eqArrays = function(arrayOne, arrayTwo) {
   let equal = true;
+
+  if (!Array.isArray(arrayOne) || !Array.isArray(arrayTwo)) {
+    return false;
+  };
+
   if (arrayOne.length !== arrayTwo.length) {
     equal = false;
   } else {
@@ -13,7 +18,9 @@ const eqArrays = function(arrayOne, arrayTwo) {
       }
     }
   }
+
   return equal;
+  
 };
 
 // test cases
