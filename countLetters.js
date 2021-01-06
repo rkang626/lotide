@@ -14,7 +14,7 @@ const countLetters = function(inputString) {
   }
 
   return results;
-}
+};
 
 // test cases
 const testString = 'Aaaa bbb cc d';
