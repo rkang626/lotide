@@ -7,7 +7,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
 
   if (!Array.isArray(arrayOne) || !Array.isArray(arrayTwo)) {
     return false;
-  };
+  }
 
   if (arrayOne.length !== arrayTwo.length) {
     equal = false;
@@ -20,7 +20,6 @@ const eqArrays = function(arrayOne, arrayTwo) {
   }
 
   return equal;
-  
 };
 
 // test cases

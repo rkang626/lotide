@@ -1,4 +1,5 @@
 const eqArrays = function(arrayOne, arrayTwo) {
+
   let equal = true;
   if (arrayOne.length !== arrayTwo.length) {
     equal = false;
@@ -9,6 +10,7 @@ const eqArrays = function(arrayOne, arrayTwo) {
       }
     }
   }
+  
   return equal;
 };
 
