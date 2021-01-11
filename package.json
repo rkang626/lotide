@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@rkang626/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the Lodash library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/rkang626/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ryan Kang <rkang626@gmail.com> (https://github.com/rkang626/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rkang626/lotide/issues"
