@@ -38,5 +38,5 @@ const assertObjectsEqual = function(actual, expected) {
 };
 
 // test cases
-console.log(assertObjectsEqual({ a: "1", b: "2" }, { a: "1", b: "2" }));
-console.log(assertObjectsEqual({ a: "1", b: "2" }, { a: "1", b: "2" , c: "3"}));
+// console.log(assertObjectsEqual({ a: "1", b: "2" }, { a: "1", b: "2" }));
+// console.log(assertObjectsEqual({ a: "1", b: "2" }, { a: "1", b: "2" , c: "3"}));
